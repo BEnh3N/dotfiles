@@ -71,6 +71,7 @@ alias neo="clear && fastfetch -c paleofetch"
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+source ~/.iterm2_shell_integration.zsh
 
 # nvm
 export NVM_DIR=~/.nvm
